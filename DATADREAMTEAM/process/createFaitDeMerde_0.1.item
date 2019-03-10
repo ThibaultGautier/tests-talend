@@ -181,7 +181,7 @@
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out">
         <mapperTableEntries name="Id" expression="Numeric.sequence(&quot;s1&quot;,1,1)" type="id_Integer"/>
-        <mapperTableEntries name="Id_Date" expression="row2.Id" type="id_Integer"/>
+        <mapperTableEntries name="Id_Date" expression="Var.var1" type="id_Integer"/>
         <mapperTableEntries name="DateTime" expression="row2.DDS " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
